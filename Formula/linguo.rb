@@ -3,28 +3,28 @@
 class Linguo < Formula
   desc "Cross-platform, multi-language runtime, package, and project manager"
   homepage "https://github.com/BoxingOctopusCreative/linguo"
-  version "0.6.0"
+  version "0.7.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.6.0/linguo-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "215a302750049773ff94817ec6e95072c6ae9a486a318b4b6d0c6dab2b79cbc2"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "65c7a3ff677bbfda59bcfe6aa27a4bf087ca1b0da6192cece5675a67710072f5"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.6.0/linguo-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "88e17431fc4844dbf44a88a670f2d4991ff0199e023623dc01e19831e8b8abc5"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "51a6c828bf509857a4fd0c94618212d91730f6afb42a8208ce394e78921589c9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.6.0/linguo-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4083668f90686d7e2780c122b180f45d39594827e0a6f357a54e6d8c17f10032"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0201a6976468faacd7e01ec6121a3a8718dfa04cb19b911cc23aacb44a5d3f6e"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.6.0/linguo-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "365760b1f5c5e7793155ca9e7b8e22c401d115f3ac27720e446549468fc5919a"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "49e90ba824087f68906962bf241214ff776d087a14e6e34efcef44dc1c4b9da0"
     end
   end
 
