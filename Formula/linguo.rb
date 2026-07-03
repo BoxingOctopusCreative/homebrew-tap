@@ -3,28 +3,28 @@
 class Linguo < Formula
   desc "Cross-platform, multi-language runtime, package, and project manager"
   homepage "https://github.com/BoxingOctopusCreative/linguo"
-  version "0.9.0"
+  version "1.0.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.9.0/linguo-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "749296df6e2c8b31491777dce242b9182e80b987c3e5d10e1862a837686f083b"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "416a7d048ed37da6e9567dc5f37f7da71d875a117f9382d3def46dbe17cf7826"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.9.0/linguo-v0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2449c92deea263bdb234858de1dd390e9f961271924cd678eb4487114ca94b84"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3ff99dff312bc98af59b862b2aca3f21f49b8f448a3a41dcb5a6ea25a37ff7f4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.9.0/linguo-v0.9.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f6a9a611f3a05ab939c871d598f18094ac013d954e0e55e0669191ef80c6e0a1"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ef4861f7be8069dd327a06d9e91aa0c419e5ca49e3c3f425f337c8884231a245"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.9.0/linguo-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a07699e01f9463e6b92426d2ffbaebdb6acdaeb0da8aab5beb314cd47afdee8a"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "528f8caf3edcea5d3b2b7eabf9bede625598b1441e9a8bc37d0fd0d9fd214add"
     end
   end
 
