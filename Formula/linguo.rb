@@ -3,28 +3,28 @@
 class Linguo < Formula
   desc "Cross-platform, multi-language runtime, package, and project manager"
   homepage "https://github.com/BoxingOctopusCreative/linguo"
-  version "0.7.0"
+  version "0.8.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "65c7a3ff677bbfda59bcfe6aa27a4bf087ca1b0da6192cece5675a67710072f5"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.8.0/linguo-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "660c33a47a6cb20639089fc0251144ae26f0570481c5b9601ece19fae86b1323"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "51a6c828bf509857a4fd0c94618212d91730f6afb42a8208ce394e78921589c9"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.8.0/linguo-v0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4ef444f568ff5beafe5cfa5ecb040b329f75f4cf168d4b6d691312a87e911772"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0201a6976468faacd7e01ec6121a3a8718dfa04cb19b911cc23aacb44a5d3f6e"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.8.0/linguo-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dfec755503800d1e72ce4eb03c1f9607ce253714a5b4d2134ee32561c4a94fcd"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.7.0/linguo-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "49e90ba824087f68906962bf241214ff776d087a14e6e34efcef44dc1c4b9da0"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v0.8.0/linguo-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d1b418d45259529b9355f03923285a81d30c1fc074faa5a7cfd5458ffe206982"
     end
   end
 
