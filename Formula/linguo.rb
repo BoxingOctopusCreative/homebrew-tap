@@ -3,28 +3,28 @@
 class Linguo < Formula
   desc "Cross-platform, multi-language runtime, package, and project manager"
   homepage "https://github.com/BoxingOctopusCreative/linguo"
-  version "1.0.0"
+  version "1.2.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "416a7d048ed37da6e9567dc5f37f7da71d875a117f9382d3def46dbe17cf7826"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.2.0/linguo-v1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "357422b9d707f20e82fb9f54e50e4209637db0d34b536094b2d4523fb2143f4e"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3ff99dff312bc98af59b862b2aca3f21f49b8f448a3a41dcb5a6ea25a37ff7f4"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.2.0/linguo-v1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "854dc3f20b12168e3c41a9b822418bd3323b1fec29016f1d9780f76e88eaa265"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ef4861f7be8069dd327a06d9e91aa0c419e5ca49e3c3f425f337c8884231a245"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.2.0/linguo-v1.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a73af6321ae051793fe2817cc190c1ece3c973b1a9d01b1f80a6c999a51bc627"
     end
     on_intel do
-      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.0.0/linguo-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "528f8caf3edcea5d3b2b7eabf9bede625598b1441e9a8bc37d0fd0d9fd214add"
+      url "https://github.com/BoxingOctopusCreative/linguo/releases/download/v1.2.0/linguo-v1.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a194f5979e3be8a41e6c5cef1e03306ff46460c72165c77030b44adb2ddd55a7"
     end
   end
 
